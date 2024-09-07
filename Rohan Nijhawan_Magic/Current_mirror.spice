@@ -1,0 +1,29 @@
+* SPICE3 file created from Current_mirror.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_23_n31# a_21_n34# a_16_n31# Gnd nfet w=10 l=2
++  ad=100 pd=60 as=50 ps=30
+M1001 a_0_n8# a_n7_n31# a_n7_n31# VDD pfet w=24 l=2
++  ad=240 pd=116 as=124 ps=60
+M1002 VDD a_n7_n31# a_0_n8# VDD pfet w=24 l=3
++  ad=400 pd=200 as=0 ps=0
+M1003 gnd a_67_n31# a_67_n31# Gnd nfet w=5 l=2
++  ad=175 pd=110 as=25 ps=20
+M1004 gnd gnd a_0_n31# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=100 ps=60
+M1005 VDD a_43_n31# a_43_n31# VDD pfet w=24 l=2
++  ad=0 pd=0 as=120 ps=58
+M1006 a_0_n31# a_n2_n34# a_n7_n31# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=50 ps=30
+M1007 a_50_n31# a_48_n34# a_43_n31# Gnd nfet w=10 l=2
++  ad=100 pd=60 as=50 ps=30
+M1008 gnd a_43_n31# a_50_n31# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 VDD a_67_n31# a_67_n31# VDD pfet w=24 l=2
++  ad=0 pd=0 as=120 ps=58
+M1010 gnd gnd a_23_n31# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 VDD a_16_n31# a_16_n31# VDD pfet w=8 l=2
++  ad=0 pd=0 as=40 ps=26
+C0 VDD Gnd 7.97fF
